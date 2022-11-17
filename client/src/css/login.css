@@ -1,0 +1,24 @@
+.backgr{
+     /* background-image: url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ; */
+     background-repeat:inherit;
+     max-width: 100%;
+     background-size: contain;
+     position:fixed;
+     left: 0;
+     right: 0;
+     top:0;
+     bottom: 0;
+
+     /* width: 100%;
+     height: auto; */
+     display: block;
+    /* object-fit: cover; */
+    background: radial-gradient(#E1E5EA, #A7BBC7);
+}
+.heading1
+{
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    
+}
