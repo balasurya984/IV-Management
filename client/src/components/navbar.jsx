@@ -16,7 +16,8 @@ export default function Navbar1()
                     <Nav className="me-auto">
                         <Link className="home" to="/home">Home</Link>
                         <Link className="link" to="/uploadform">Register</Link>
-                        <Link className="link" to="/displayform">View</Link>                        
+                        <Link className="link" to="/displayform">View</Link>
+                        <Link className="link" to="/view">Total_Registration</Link>                        
                         <Link style={{color:"red"}} className="link nav11" to="/logout">Logout</Link>   
                     </Nav>
                 </Navbar.Collapse>

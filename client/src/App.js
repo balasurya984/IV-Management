@@ -8,6 +8,7 @@ import ProtectedRoutes from "./components/ProtectedRoute";
 import Home from './components/homepage';
 import UploadForm from './components/UploadForm';
 import Display from './components/display';
+import View from './components/view';
 import Login from "./components/Login"
 import SignUp from './components/Signup'
 import Logout from './components/Logout';
@@ -25,6 +26,7 @@ function App() {
           <Route path='/home' element={<ProtectedRoutes><Home/></ProtectedRoutes>} />
           <Route path='/uploadform' element={<ProtectedRoutes><UploadForm /></ProtectedRoutes>} />
           <Route path='/displayform' element={<ProtectedRoutes><Display /></ProtectedRoutes>} />
+          <Route path='/view' element={<ProtectedRoutes><View /></ProtectedRoutes>} />
           <Route path='/logout' element={<Logout/>}></Route>
           </Routes>
           </UserAuthContextProvider>
